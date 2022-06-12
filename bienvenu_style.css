@@ -1,0 +1,83 @@
+body{
+    padding:0;
+    margin: 0;
+    background-image: url("pics/11.jpg");
+    
+}
+header{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    position: relative;
+    list-style: none;
+    margin-top: 0%;
+    display: inline;
+    padding: 10px 20px;
+
+}
+li a:hover{
+    position: relative;
+    background-color: gold;
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+}
+.logo{
+    margin-top: 3px;
+    width:3.4cm;
+    height: 1.1cm;
+    
+    position: center;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+table{
+    margin-top: 2.5cm;
+    border: 3px black solid;
+    background-color: rgb(130, 192, 247);
+}
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: gold;
+    align-items: center;
+}
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+      
+
+}
+nav{
+    position: relative;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+th,td{
+    border:aliceblue 1.5px solid;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    font-size: x-large;
+}
+table tr:nth-child(2n+2){
+	background:#ccc;
+}
+thead tr th:nth-child(2n+1):hover{
+	background:#ccc;
+}

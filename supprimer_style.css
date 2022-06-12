@@ -1,0 +1,64 @@
+th ,td {
+    border: black solid 3px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align : center;
+    border-radius: 30px;
+    background-color: aliceblue;
+    width : 00px;
+    height : 30px;
+    margin : 7px;
+    left: 15%;
+    align-items: center;
+    
+}
+img{
+    height: 0.8cm;
+    width:1.9cm;
+}
+input[type=text],input[type=password],input[type=number] {
+    height: 40px;
+    width: 350px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+body{
+    background-image: url("pics/11.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+}
+table{
+    background-color: rgb(159, 223, 235);
+    
+   
+    border: black solid 3px ;
+    
+    margin-top: 4cm;
+    width : 600px;
+    height : 200px;
+    
+}
+header{
+    display: block;
+    margin-top:0cm;
+}
+.photo{
+    font-size: large;
+}
+#supprimer{
+    border:none;
+
+    font-size: 20px;
+    font-family: unset;
+}
+
+
+input[type="submit"]{
+    height: 40px;
+    width: 90px;
+}
+
+h1{
+    font-size: x-large;
+}
